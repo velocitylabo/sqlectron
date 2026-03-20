@@ -12,7 +12,7 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     env:
-      node-version: 20
+      node-version: 18
 
     strategy:
       matrix:
